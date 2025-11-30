@@ -1,0 +1,23 @@
+/* 1️⃣ Descendant selector (space)
+   Selects p inside div (at any level) */
+div p {
+    color: blue;
+}
+
+/* 2️⃣ Child selector (>)
+   Selects only direct children of div */
+div > p {
+    font-weight: bold;
+}
+
+/* 3️⃣ Adjacent sibling selector (+)
+   Selects p immediately after div */
+div + p {
+    color: green;
+}
+
+/* 4️⃣ General sibling selector (~)
+   Selects all p after div */
+div ~ p {
+    font-style: italic;
+}
