@@ -6,8 +6,8 @@ div p {
 
 /* 2️⃣ Child selector (>)
    Selects only direct children of div */
-div > p {
-    font-weight: bold;
+ body > p {
+    color: red;
 }
 
 /* 3️⃣ Adjacent sibling selector (+)
