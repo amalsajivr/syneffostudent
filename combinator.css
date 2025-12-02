@@ -1,23 +1,24 @@
-/* 1️⃣ Descendant selector (space)
-   Selects p inside div (at any level) */
+/* 1.Descendant combinator(space)
+descendant combinator mtches all elements that are descendants of a specified element
+
 div p {
     color: blue;
 }
-
-/* 2️⃣ Child selector (>)
-   Selects only direct children of div */
+*/
+/*2.Child combinator (>)
+   Selects all elements that are children of a specified element 
  body > p {
     color: red;
-}
+} */
 
-/* 3️⃣ Adjacent sibling selector (+)
-   Selects p immediately after div */
+/*3️.next sibling combinator (+)
+   used to select element directly after another specific element 
 div + p {
     color: green;
-}
+} */
 
-/* 4️⃣ General sibling selector (~)
-   Selects all p after div */
+ /*4️.subsequent sibling combinator (~)
+   used to select all elements that are siblings of a specific element 
 div ~ p {
     font-style: italic;
-}
+} */

@@ -1,0 +1,4 @@
+input[class*="name"]
+{
+background-color: red;
+} 
