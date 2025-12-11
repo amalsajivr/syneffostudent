@@ -1,0 +1,13 @@
+
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  border: 10px dotted red;
+  margin: 500px 10px 10px 50px;
+  padding: 50px 0px 0px 50px;
+  position: relative;
+}
+

@@ -1,0 +1,11 @@
+#img1 {
+  transform: scale(0.7);
+}
+
+#img2 {
+  transform: scale(110%);
+}
+
+#img3 {
+  transform: scale(1.1, 0.5);
+}

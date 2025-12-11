@@ -1,0 +1,21 @@
+  *{
+margin:0;
+padding:0;
+
+  }
+
+h1{
+
+width:100%;
+background-color: blue;
+color:white;
+
+display:block;
+display:inline;
+display:inline-block;
+display:flex;
+display:grid;
+
+
+}
+

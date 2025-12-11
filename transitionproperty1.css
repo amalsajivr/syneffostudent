@@ -1,0 +1,23 @@
+button{
+   margin:25px;
+padding:12px 25px;
+border-radius: 26px;
+
+border:1px solid navy;
+background-color: white;
+
+color:white;
+font-size: 25px;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: linear;
+font-size: 18px;
+
+}
+
+button:hover {
+background-color: white;
+color: orange
+
+
+}

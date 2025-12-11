@@ -1,0 +1,23 @@
+.container{
+
+height: 600px;
+width: 800px;
+background-color: rgb(129, 233, 50);
+display: grid;
+grid-template-columns: repeat(3, 200px);
+grid-template-rows: repeat(2, 200px);
+justify-content: end;
+align-content: end;
+place-content: center;
+justify-items: end;
+}
+
+
+.item{
+
+height: 100px;
+width:100px;
+background-color: aqua;
+border-bottom: 1px solid black;
+
+}

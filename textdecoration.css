@@ -1,0 +1,36 @@
+p {
+  text-decoration: overline; /* text-align doesn't support overline, use text-decoration instead */
+  text-indent: 800px;
+  word-spacing: 30px;
+  letter-spacing: 30px;
+  text-shadow: 2px 2px 5px rgb(0,0,0);
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  border-color: red;
+  border-style: dotted;
+  border-width: 10px;
+  border-radius: 100%;
+  margin: 50px 10px 10% 50px; /* corrected margin syntax */
+  padding: 50px 0px 0px 50px; /* corrected padding syntax */
+}
+
+img {
+  position: relative; /* added semicolon */
+  top: 90px;
+  left: 50px;
+}
+
+/* removed duplicate img styles */
+
+/* corrected last img style */
+img:last-child {
+  position: sticky;
+  top: 90px;
+  left: 500px;
+}
+

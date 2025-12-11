@@ -1,0 +1,69 @@
+.container{
+height: 600px;
+width: 800px;
+background-color: rgb(129, 233, 50);
+display: grid;
+grid-template-columns: repeat(3,200px);
+grid-template-rows: repeat(2,200px);
+
+justify-content: space-around;
+align-content: space-around;
+place-content: start;
+justify-items: center;
+align-items: center;
+place-items: center;
+
+
+}
+
+
+.item {
+
+background-color: rgb(229, 23, 229);
+
+}
+
+.one{
+ grid-column-start: 1;
+grid-column-end: 3;
+background-color: aqua;
+
+}
+
+.two{
+background-color: indianred;
+
+}
+
+
+.three {
+
+background-color: blue;
+
+}
+
+.four{
+    background-color: green;
+}
+
+.five{
+   grid-column: 3/4;
+   background-color: yellow;
+   grid-row-start: 2;
+   grid-row-end: 4; 
+
+}
+
+.six{
+background-color: orange;
+
+}
+
+.seven{
+
+    background-color:red;
+}
+
+
+
+

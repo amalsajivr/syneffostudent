@@ -1,0 +1,19 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#myDiv1 {
+  transform: translateY(50px); /* moves the element 50px along the x-axis */
+}
+
+#myDiv2 {
+  transform: translateY(100px); /* moves the element 100px along the x-axis */
+}
+
+#myDiv3 {
+  transform: translateY(-10px); /* moves the element -10px along the x-axis */
+}

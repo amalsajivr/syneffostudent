@@ -1,0 +1,20 @@
+.container{
+
+height: 600px;
+width: 800px;
+background-color: aliceblue;
+display: grid;
+grid-template-columns: 120px 110px 150px;
+grid-template-rows: repeat(2,200px);
+justify-content: center;
+}
+
+
+.item{
+
+height: 100px;
+width:100px;
+background-color: aqua;
+border-bottom: 1px solid black;
+
+}

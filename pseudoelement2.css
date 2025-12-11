@@ -1,0 +1,74 @@
+
+.container{
+height: 600px;
+width: 800px;
+background-color: rgb(13, 240, 240);
+display: grid;
+grid-template-columns: 200px 400px;
+grid-template-rows: repeat(4,200px);
+justify-content: space-around;
+align-content: space-between;
+place-content: start;
+justify-items: center;
+align-items: center;
+place-items: stretch;
+grid-auto-rows: 200px;
+grid-auto-columns: 200px;
+grid-template-areas: 
+
+"navbar navbar"
+"sidebar section1"
+"sidebar section2"
+"footer footer"
+;
+
+
+}
+
+
+.item {
+ 
+background-color: violet;
+
+}
+
+.one{
+
+grid-area: navbar;
+
+}
+
+.two{
+background-color: indianred;
+grid-area: sidebar;
+
+}
+
+
+.three {
+
+background-color: blue;
+grid-area: section1;
+}
+
+.four{
+    background-color: green;
+    grid-area: section2;
+}
+
+.five{
+  
+     background-color: yellow;
+grid-area: footer;
+}
+
+li::before{
+    content: "Note: ";
+font-size: 14px;
+
+}
+
+
+
+
+

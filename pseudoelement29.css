@@ -1,0 +1,30 @@
+.container{
+height: 400px;
+width: 600px;
+background-color: rgb(129, 233, 50);
+display: grid;
+grid-template-columns: repeat(3, 200px);
+grid-template-rows: repeat(2, 200px);
+justify-content: end;
+align-content: end;
+place-content: end;
+justify-items: center;
+align-items: center;
+place-items: center;
+}
+
+
+.item{
+
+height: 100px;
+width:100px;
+background-color: aqua;
+border-bottom: 1px solid black;
+
+}
+
+
+.three{
+justify-self: start;
+
+}

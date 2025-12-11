@@ -1,0 +1,253 @@
+.container{
+height:600px;
+width:600px;
+background-color: rgb(129, 233, 50);
+display:grid;
+grid-template-columns: repeat(3, 200px);
+grid-template-rows: repeat(3, 200px);
+
+justify-content: space-around;
+align-content: space-between;
+place-content: start;
+justify-items: center;
+align-items: center;
+place-items: stretch;
+grid-column-start: 
+        
+
+
+}
+
+
+
+.item{
+
+
+background-color: white
+
+}
+
+.one {
+
+grid-column-start:1;
+grid-column-end: 3;
+}
+
+
+.two{
+
+background-color: indianred;
+}
+
+
+.three{
+
+    background-color: blue;
+
+}
+
+.four{
+
+background-color: green;
+
+}
+
+
+.five{
+
+    grid-column: 3/4; 
+  background-color: yellow;
+grid-row-start: 2;
+grid-row-end: 4;
+}
+
+.sixx{
+
+background-color: orange;
+
+}
+
+.seven{
+
+    background-color: red;
+
+
+}
+
+li::before {
+ content: "Note"
+font-size=14px;
+font-weight: bold;
+
+}
+
+
+li::after {
+
+content: '-->';
+font-size:14px;
+font-weight: bold;
+
+}
+
+
+p::selection{
+background-color: burlywood;
+color:orangered;
+
+}
+
+input::placeholder{
+color: navy;
+font-size: 1rem;
+}
+
+p::first-line{
+
+    color: orange;
+    font-size: 1.5rem;
+}
+
+
+p::first-letter {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2rem;
+font-weight: bold;
+color: orangered;
+
+}
+
+
+
+li::marker{
+
+color:tomato
+fontsize=24px;
+
+}
+
+
+{
+selector:pseudoelement
+}
+
+
+h1:hover{
+
+color:orangered;
+
+}
+
+button hover{
+
+background-color: navy;
+border:none;
+color:white;
+
+}
+a.link {
+
+color:navy
+text-decoration=none;
+
+}
+
+a.hover{
+text-decoration: underline solid navy 1px;
+
+}
+
+a.visited {
+
+    color:rgb(0, 255, 30)
+}
+
+a.active{
+
+    color:brown;
+}
+
+button:active{
+
+    background-color: rgb(151, 151, 151);
+    color:navy;
+}
+
+input:focus {
+
+    outline:2px solid green;
+}
+
+input:disabled{
+
+    cursor:not not-allowed;
+border: 2px solid gray;
+
+}
+
+
+li:first-child {
+
+    color:red;
+}
+li:last-child {
+
+color:blueviolet;
+
+}
+
+li:nth-child(4) {
+
+    color: blue;
+
+}
+
+li:nth-child(even) {
+
+    color:rgb(0, 48, 84);
+}
+
+li:nth-child(odd){
+
+    color:green;
+}
+
+
+p:first-of-type{
+
+    color:tomato;
+}
+
+p:last-of-type {
+
+    color:navy;
+}
+
+p:nth-last-of-type(5){
+    color:aquamarine
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
