@@ -339,10 +339,18 @@ section-2
 1. A company decided to give bonus of 5% to employee if his/her year of service is more than
 5 years. Ask user for their salary and year of service and print the net bonus amount.
 
+let bonus=salary * 0.5;
+if(year > 5) {
 
+console.log("Bonus is",bonus);
+console.log("salary is", salary + bonus);
 
+}
+else {
 
-
+console.log("No bonus");
+console.log("Salary is", salary);
+}
 
 
 
@@ -355,8 +363,20 @@ b. Next 100 units Rs 5 per unit
 c. After 200 units Rs 10 per unit
 (For example if input unit is 350 than total bill amount is Rs2000)
 
+let charge=x;
+let 100units=0;
+let next100units=100*5;
+let next200units=100*10;
 
-
+if(x=100){
+console.log("charge is", 0);
+}
+else if(x>100){
+console.log("charge is",next100units);
+}
+if(x>200){
+    console.log("charge is",next200units);
+}
 
 
 
@@ -364,8 +384,35 @@ c. After 200 units Rs 10 per unit
 Sunday , 2 for Monday and so on.
 
 
+let day=x;
+switch(day){
 
 
+case 1:console.log("sunday");
+     break;
+
+case 1:console.log("Monday");
+     break;
+
+case 2:console.log("Tuesday");
+     break;
+
+case 3:console.log("wednesday");
+     break;
+
+case 4:console.log("thursday");
+     break;
+
+
+case 5:console.log("friday");
+     break;
+
+case 6:console.log("saturday");
+     break;
+
+
+default:console.log("invalid");
+     break;
 
 
 
@@ -405,12 +452,25 @@ b. > 50000 and <= 100000 10%
 c. <= 50000 5%
 
 
+let costprice=x;
+
+ tax1=x*15;
+ tax2=x*10;
+tax3=x*5;
 
 
+if(x>100000) {
+    console.log("tax1");
+} 
+else(x>50000 && x<=100000) {
+    
+console.log("tax2");
 
+}
+if(x<=50000) {
+console.log("tax3");
 
-
-
+}
 
 
 
@@ -420,11 +480,24 @@ b. "Odd and greater than 10"
 c. "Neither of the above"
 
 
+let 
+if (x%2 = 0 && x%4=0 )
+{
 
+console.log("even and divisible by 4");
 
+}
 
+if(x%3 =0 && x>10)
+{
 
+console.log("odd and greate than 10");
 
+}
+else(!x){
+
+    console.log("neither the above");
+}
 
 
 8. Write a program that checks the total purchase amount and applies discounts:
@@ -434,18 +507,21 @@ c. If the amount is less than $50, log "No discount available."
 
 
 
+let purchaseamount=x;
+let discount=d;
+if(purchaseamount>$100 )
+{
+console.log(discount=d*20);
 
+}
+if(purschaseamount < $50 && purschaseamount > $100){
+console.log(discount=d*10);
 
+}
+else(purchaseamount> $50){
+console.log(no discount available);
 
-
-
-
-
-
-
-
-
-
+}
 
 
 9. Write a program to calculate the monthly charge for a mobile data plan based on data
@@ -456,6 +532,12 @@ b. 2-10Gb Rs 200 + Rs 50 per Gb over 2 Gb
 c. Above 10 Gb Rs 600 + Rs 50 per Gb over 10 Gb
  Example:If the data usage is 15 GB, calculate the total charge.
 
+
+x>=2
+
+console.log()
+
+x>=2-10
 
 
 
@@ -475,18 +557,19 @@ Example: If the parking duration is 8 hours, calculate the total fee
 
 
 
-
-
-
-
-
-
-
 1. Write a program to check if a number is positive, negative, or zero using if–else-if.
 
 
 
 
+let num = 10;
+if (num > 0) {
+  console.log("Positive");
+} else if (num < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
 
 
 
@@ -497,12 +580,13 @@ Example: If the parking duration is 8 hours, calculate the total fee
 
 
 
+let age=18;
+
+console.log(age < 18) ?  "Minor" : "Adult";
 
 
-
-
-
-
+let age=12;
+console.log(age < 18) ?  "Minor" : "Adult";
 
 
 
@@ -510,16 +594,15 @@ Example: If the parking duration is 8 hours, calculate the total fee
 
 3. Check if a number is divisible by 2 AND 3 using logical operators (&&, ||).
 
+let num=x;
+if(x%2=0 && x%3){
+console.log("divisible by 2 and 3");
 
+}
+else {
 
-
-
-
-
-
-
-
-
+    console.log("not divisible by 2 and 3");
+}
 
 
 
@@ -530,29 +613,51 @@ Example: If the parking duration is 8 hours, calculate the total fee
  Else print "Wrong password".
 
 
+let username = admin;
 
-
-
-
-
-
-
-
-
+if ("password=1234") {
+  console.log("Login successful");
+  
+}
+  if (y > 20) {
+    console.log("wrong password");
+  }
+}
 
 
 
 
 5. Use switch-case to print the day of the week based on a number (1–7).
 
+let day=x;
+switch(day){
 
 
+case 1:console.log("sunday");
+     break;
+
+case 1:console.log("Monday");
+     break;
+
+case 2:console.log("Tuesday");
+     break;
+
+case 3:console.log("wednesday");
+     break;
+
+case 4:console.log("thursday");
+     break;
 
 
+case 5:console.log("friday");
+     break;
+
+case 6:console.log("saturday");
+     break;
 
 
-
-
+default:console.log("invalid");
+     break;
 
 
 
@@ -565,15 +670,17 @@ Example: If the parking duration is 8 hours, calculate the total fee
 (Use else-if ladder)
 
 
+let temperature = x ;
 
-
-
-
-
-
-
-
-
+if (x=35) {
+  console.log( "Very Hot" );
+} else if (x > 25 && X < 35) {
+  console.log( "Warm" );
+} else if (x > 15 && X < 25) {
+  console.log("Cool");
+} else ("x < 5") {
+  console.log("Cold")
+}
 
 
 
@@ -589,35 +696,37 @@ Both must be true.
 
 
 
-
-
-
-
-
-
-
-
 8. Use nested if to check exam result:
 •	If marks ≥ 40 → Passed
  Inside check: if marks ≥ 90 → "Excellent"
 Else → Failed.
 
 
+let marks;
 
+if (marks ≥ 40 ) {
+  console.log( "passed");
+} else if ( marks ≥ 90 )) {
+  console.log( "Excellent" );
+} else if {
+  console.log("failed");
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 9. Use a ternary operator to check if a number is even or odd.
+
+let num=x;
+if (x%2===0)? {
+
+    console.log("number is even");
+}
+else{
+    
+    console.log("number is odd");
+}
+
+
 10. Use switch-case to evaluate grades:
 'A' → Excellent
 'B' → Good
@@ -626,14 +735,21 @@ Else → Failed.
 Any other input → Invalid grade
 
 
+let grade;
+switch(grade){
 
 
+case A:console.log("Excellent");
+     break;
 
+case B:console.log("Good");
+     break;
 
+case C:console.log("Average");
+     break;
 
-
-
-
+case D:console.log("Poor");
+     break;
 
 
 
@@ -641,17 +757,10 @@ Any other input → Invalid grade
 11. Check if a number is between 10 and 50 using logical AND.
 
 
-
-
-
-
-
-
-
-
-
-
-
+let x=10;
+let y=50;
+let z=(x>10 && y<50)
+console.log("number is between 10 and 50");
 
 
 12. Use nested if to determine movie ticket pricing:
@@ -661,50 +770,83 @@ Else if age > 60 → Senior discount
 Else → Normal ticket.
 
 
+let age;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (age < 12 ) {
+  console.log( "child ticket");
+} else if ( age < 5 )) {
+  console.log( "free entry" );
+} else if (age > 60){
+  console.log("senior discount");
+} else{
+    console.log("normal ticket")
+}
 
 13. Use if-else to check if two strings are equal (case-sensitive).
 
 
+let str1="hello";
 
+let str2="hello";
 
+if(str1===str2){
+console.log("strings are equal");
 
+} else {
 
-
-
-
-
-
+    console.log("strings are not equal");
+}
 
 
 
 14. Use switch-case to display month names based on month number.
 
 
+let month number=x;
+
+switch(month name){
+
+case 1:console.log("january");
+     break;
+
+case 2:console.log("february");
+     break;
+
+case 3:console.log("march");
+     break;
+
+case 4:console.log("april");
+     break;
+
+case 5:console.log("may");
+     break;
 
 
+case 6:console.log("june");
+     break;
+
+case 7:console.log("july");
+     break;
 
 
+case 8:console.log("august");
+     break;
+
+case 9:console.log("september");
+     break;
+
+case 10:console.log("october");
+     break;
+
+case 11:console.log("november");
+     break;
+
+case 12:console.log("decemeber");
+     break;
 
 
-
-
-
-
+default:console.log("invalid");
+     break;
 
 
 15. Use nested if to check online shopping order status:
@@ -714,17 +856,16 @@ Else print "Payment pending".
 
 
 
+let paymentDone;
 
+if (paymentDone) {
+  console.log( "true");
+} if (stockAvailable ) {
+  console.log( "order placed" );
+} else if {
+  console.log("Payment pending");
 
-
-
-
-
-
-
-
-
-
+}
 
 
 16. Use a ternary operator to check if a user has enough balance to purchase an item.
@@ -739,41 +880,28 @@ Else print "Payment pending".
 
 
 
-
-
-
-
 17. Using logical OR, check if a number is a weekend day (6 or 7).
 
+let z=(X===6||y===7);
 
-
-
-
-
-
-
-
-
-
-
+console.log(weekend day);
 
 
 
 
 18. Use if-else to check if a given character is a vowel or consonant.
 
+let char='a';
+if(a,e,i,o,u){
 
+console.log("vowel");
 
+}
+else-if {
 
+    console.log("consonant");
 
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -784,18 +912,25 @@ green → Go
 (default → Invalid signal)
 
 
+let signal="red";
+
+switch(signal){
+
+case 1:"red"
+
+console.log("stop");
+break;
+ 
+case 2:"yellow"
+
+console.log("ready")
 
 
+case 3:"green"
 
+console.log("go")
 
-
-
-
-
-
-
-
-
+}
 
 
 20. Use nested if to validate ATM withdraw:
@@ -806,8 +941,20 @@ Else → "Account inactive"
 
 
 
+let ATM;
 
+if ( accountActive ) {
+if ( balance ≥ amount  ) {
 
+  console.log("Withdraw successful");
+}  
+else {
+  console.log( "Insufficient balance" );
+}
+ else{
+    console.log("Account inactive")
+}
+}
 
 
 
