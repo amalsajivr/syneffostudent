@@ -1,0 +1,211 @@
+<!-- <html lang="en">
+<head> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7fafc;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .description {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2d3748;
+        }
+        .description p {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        .description ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left;
+            color: #4a5568;
+        }
+        .description li {
+            margin-bottom: 8px;
+        }
+        .description li strong {
+            font-weight: bold;
+        }
+        .completed {
+            color: #48bb78;
+        }
+        .current {
+            color: #ecc94b;
+        }
+        .upcoming {
+            color: #e2e8f0;
+        }
+        .tracker {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .tracker::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: calc(100% - 40px); 
+            height: 4px; 
+            background: linear-gradient(to right, #48bb78 25%, #ecc94b 25% 50%, #e2e8f0 50% 75%, #e2e8f0 75%);
+            z-index: 1;
+        }
+        .step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            margin: 0 15px;  
+        }
+        .step div {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 8px;
+            font-size: 24px;  
+        }
+        .step:nth-child(1) div {
+            background-color: #48bb78; /* Completed */
+        }
+        .step:nth-child(2) div {
+            background-color: #ecc94b; /* Current */
+        }
+        .step:nth-child(3) div {
+            background-color: #e2e8f0; /* Upcoming */
+        }
+        .step:nth-child(4) div {
+            background-color: #e2e8f0; /* Upcoming */
+        }
+        .step span {
+            display: block;
+            font-size: 16px;
+            color: #4a5568;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="description">
+            <p>This tracker shows your progress through different stages:</p>
+            <ul>
+                <li><strong class="completed">Completed:</strong> Finished steps</li>
+                <li><strong class="current">Current:</strong> The active step</li>
+                <li><strong class="upcoming">Upcoming:</strong> Future steps</li>
+            </ul>
+        </div>
+        <div class="tracker">
+            <div class="step">
+                <div>✓</div>
+                <span>Step 1</span>
+            </div>
+            <div class="step">
+                <div>▶</div>
+                <span>Step 2</span>
+            </div>
+            <div class="step">
+                <div>•</div>
+                <span>Step 3</span>
+            </div>
+            <div class="step">
+                <div>•</div>
+                <span>Step 4</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex justify-center items-center h-screen bg-gray-100">
+    <div class="w-full max-w-3xl px-4 py-6 bg-white rounded-lg shadow-md">
+        <div class="text-center mb-8 text-gray-800">
+            <p class="text mb-4 ml-4">This tracker shows your progress through different stages:</p>
+            <ul class="list-disc list-inside text-left text-gray-600">
+                <li><strong class="text-green-500">Completed:</strong> Finished steps</li>
+                <li><strong class="text-yellow-500">Current:</strong> The active step</li>
+                <li><strong class="text-gray-300">Upcoming:</strong> Future steps</li>
+            </ul>
+        </div>
+        <div class="relative flex items-center">
+            <div class="absolute inset-0 flex items-center pointer-events-none">
+                <div class="flex-1 h-1 bg-green-500"></div>
+                <div class="flex-1 h-1 bg-yellow-400"></div>
+                <div class="flex-1 h-1 bg-gray-300"></div>
+                <div class="flex-1 h-1 bg-gray-300"></div> 
+            </div>
+            <!-- Steps -->
+            <!-- <div class="flex-1 text-center relative z-10">
+                <div class="w-12 h-12 rounded-full bg-green-500 
+                     text-white flex items-center justify-center 
+                     mx-auto mb-2 text-2xl">
+                     
+                </div>
+                <div class="text-sm">Step 1</div>
+            </div>
+            <div class="flex-1 text-center relative z-10">
+                <div class="w-12 h-12 rounded-full bg-yellow-500 
+                     text-white flex items-center justify-center 
+                     mx-auto mb-2 text-2xl">
+                    
+                </div>
+                <div class="text-sm">Step 2</div>
+            </div>
+            <div class="flex-1 text-center relative z-10">
+                <div class="w-12 h-12 rounded-full bg-gray-200 
+                     text-white flex items-center justify-center 
+                     mx-auto mb-2 text-2xl">
+                    
+                </div>
+                <div class="text-sm">Step 3</div>
+            </div>
+            <div class="flex-1 text-center relative z-10">
+                <div class="w-12 h-12 rounded-full bg-gray-200 
+                     text-white flex items-center justify-center 
+                     mx-auto mb-3 text-2xl">
+                    
+                </div>
+                <div class="text-sm">Step 4</div>
+            </div> 
+            <div class="absolute right-0 top-1/2 w-1/4 h-px bg-gray-300"></div> 
+        </div>
+    </div>
+</body>
+
+</html> -->
+
+ 
+
+
+
+
+
+
+
+
+

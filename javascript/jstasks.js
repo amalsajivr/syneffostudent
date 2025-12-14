@@ -193,6 +193,141 @@ console.log(total);
 
 
 
+44. Salary = 25,000
+Bonus = 15%
+Tax = 5%
+Find the net salary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+45. Determine if the year entered is a leap year using comparison + logical operators.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46. A car rental costs:
+Base = 1500 per day
+Fine if late = 200
+Calculate total if rented for 3 days and returned late.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47. Check if a password is strong:
+Length ≥ 8 AND contains a number AND contains a special character.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48. Movie ticket booking:
+If age < 10 OR age > 60 → discount = true
+Check if discount applies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+49. Petrol price increases by 6%. If original price = 102, find new price.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50. A student has scores in 4 subjects. Check if average ≥ 90 to award a scholarship.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -203,6 +338,9 @@ section-2
 
 1. A company decided to give bonus of 5% to employee if his/her year of service is more than
 5 years. Ask user for their salary and year of service and print the net bonus amount.
+
+
+
 
 
 
@@ -325,6 +463,12 @@ c. Above 10 Gb Rs 600 + Rs 50 per Gb over 10 Gb
 
 
 
+10. Write a program to calculate the parking fee based on hours parked:
+Hours Parked Charge
+a. Upto 1 hour Rs 20
+b. 2-5 Hour Rs 20 + Rs 10 per Hour over 1 hour
+c. Above 5 Hour Rs 60 + Rs 15 per Hour over 5 Hours
+Example: If the parking duration is 8 hours, calculate the total fee
 
 
 
@@ -332,6 +476,333 @@ c. Above 10 Gb Rs 600 + Rs 50 per Gb over 10 Gb
 
 
 
+
+
+
+
+
+
+1. Write a program to check if a number is positive, negative, or zero using if–else-if.
+
+
+
+
+
+
+
+
+
+
+2. Ask the user’s age and check using a ternary operator whether they are an adult or minor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Check if a number is divisible by 2 AND 3 using logical operators (&&, ||).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Use nested if to check login:
+•	If username is "admin"
+ Inside check: if password is "1234"
+  Print "Login successful"
+ Else print "Wrong password".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Use switch-case to print the day of the week based on a number (1–7).
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Check if a given temperature:
+•	35 → "Very Hot"
+•	25–35 → "Warm"
+•	15–25 → "Cool"
+•	< 15 → "Cold"
+(Use else-if ladder)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. Using logical operators, check if a user is eligible for a loan:
+•	Age ≥ 21
+•	Salary ≥ 25000
+Both must be true.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8. Use nested if to check exam result:
+•	If marks ≥ 40 → Passed
+ Inside check: if marks ≥ 90 → "Excellent"
+Else → Failed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9. Use a ternary operator to check if a number is even or odd.
+10. Use switch-case to evaluate grades:
+'A' → Excellent
+'B' → Good
+'C' → Average
+'D' → Poor
+Any other input → Invalid grade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11. Check if a number is between 10 and 50 using logical AND.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12. Use nested if to determine movie ticket pricing:
+•	If age < 12 → Child ticket
+ Inside check: if age < 5 → Free entry
+Else if age > 60 → Senior discount
+Else → Normal ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13. Use if-else to check if two strings are equal (case-sensitive).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14. Use switch-case to display month names based on month number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15. Use nested if to check online shopping order status:
+•	If paymentDone is true
+ Inside check: if stockAvailable is true → "Order placed"
+Else print "Payment pending".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16. Use a ternary operator to check if a user has enough balance to purchase an item.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17. Using logical OR, check if a number is a weekend day (6 or 7).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18. Use if-else to check if a given character is a vowel or consonant.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19. Use switch-case to print traffic signal meaning:
+red → Stop
+yellow → Ready
+green → Go
+(default → Invalid signal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20. Use nested if to validate ATM withdraw:
+•	If accountActive
+ Inside check: if balance ≥ amount → "Withdraw successful"
+ Else → "Insufficient balance"
+Else → "Account inactive"
 
 
 

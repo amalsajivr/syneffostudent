@@ -89,13 +89,19 @@ console.log(age < 18) ?  "Minor" : "Adult";
 // let remainder=15/4;
 // console.log(quotient, remainder);
 
+// let side = 5;
+// let volume = 5 ** 3;
+// console.log("volume:", volume);
+
+
+
 // let a=10;
 //  a+=5; 
 // console.log(a);
 
  
 
-a=150;
+let x=150;
  let decrease=5 * 0.3;
  console.log(decrease);
 
