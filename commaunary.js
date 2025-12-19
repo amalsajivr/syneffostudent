@@ -188,8 +188,7 @@
 // }
 
 
-let firstunitprice=0;
-let secondunitprice=5*100;
-let thirdunitprice=10*200;
+// let firstunitprice=0;
+// let secondunitprice=5*100;
+// let thirdunitprice=10*200;
 
-if

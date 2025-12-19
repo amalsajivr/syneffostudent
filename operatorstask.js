@@ -48,14 +48,6 @@ console.log(~a);
 
 
 /*
-let age=18;
-
-console.log(age < 18) ?  "Minor" : "Adult";
-
-
-let age=12;
-
-console.log(age < 18) ?  "Minor" : "Adult";
 
 */
 
@@ -154,14 +146,6 @@ if (a === b) {
 console.log("hello".length === "world".length); 
 
 
-let num = 10;
-if (num > 0) {
-  console.log("Positive");
-} else if (num < 0) {
-  console.log("Negative");
-} else {
-  console.log("Zero");
-}
 
 
 

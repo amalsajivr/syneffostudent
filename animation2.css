@@ -1,5 +1,12 @@
 
-div {
+.container {
+  position: relative;
+  height: 500px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.ball {
   background-color: orangered;
   position: absolute;
   width: 100px;
@@ -12,11 +19,20 @@ div {
   animation-direction: alternate;
 }
 
+.bottom-line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background-color: black;
+}
+
 @keyframes bouncing {
   0% {
     top: 0;
   }
   100% {
-    top: 75%;
+    top: 88%;
   }
 }
+
